@@ -46,5 +46,7 @@ export const client = {
     "Professional landscaper in Farnham. 5.0 stars on Google Reviews with 0 reviews. Quality workmanship guaranteed.",
 };
 
-export const phoneLink = ;
-export const emailLink = ;
+
+// Derived helpers
+export const phoneLink = `tel:${client.phone.replace(/\s/g, "")}`;
+export const emailLink = `mailto:${client.email}`;
